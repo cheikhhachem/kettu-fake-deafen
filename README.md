@@ -2,7 +2,7 @@
 
 A [Kettu](https://github.com/C0C0B01/Kettu) plugin that reports you as deafened to Discord without changing your local audio or microphone controls. It is a mobile port of [DeafenVencord](https://github.com/fizzexual/DeafenVencord).
 
-**Status:** built and tested in a Node fixture harness, not yet verified on a phone. Treat this as experimental.
+**Status:** confirmed working on Kettu on mobile.
 
 ## What it does
 
@@ -27,9 +27,9 @@ The same `manifest.json` URL is the install link. After it loads, enable the plu
 
 ## Other mobile clients
 
-This plugin uses the Vendetta-compatible plugin API (a standard `manifest.json` plus a bundled `index.js`). That API is shared by **Vendetta**, **Bunny**, **Kettu** (which continues Bunny), and **Revenge**, so you should be able to install it the same way: paste the manifest URL above into the client's plugin installer.
+This plugin uses the Vendetta-compatible plugin API (a standard `manifest.json` plus a bundled `index.js`). That API is shared by **Vendetta**, **Bunny**, **Kettu** (which continues Bunny), and **Revenge**, so they install from the same manifest URL.
 
-Runtime behavior is a different question. The plugin hooks Kettu's Vendetta-compatible gateway socket to send a voice-state update. Similar hooks may exist on Revenge and the other clients in this family, but none of them have been tested on a phone yet. If the hook is missing, the plugin will not claim success.
+Confirmed working on Kettu. Expected to work on Revenge, Bunny, and Vendetta; not yet confirmed there.
 
 Modified Discord clients and plugins can carry account or terms-of-service risk.
 

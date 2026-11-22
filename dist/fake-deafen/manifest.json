@@ -1,6 +1,6 @@
 {
-  "name": "Fake Deafen (Experimental)",
-  "description": "Kettu-first prototype: report deafened without changing local audio or microphone controls. /fd toggles; /fdstatus shows local status. Not phone-verified.",
+  "name": "Fake Deafen",
+  "description": "Report deafened to others without changing your local audio or mic. /fd toggles, /fdstatus shows status.",
   "authors": [
     {
       "name": "Vermillion"
