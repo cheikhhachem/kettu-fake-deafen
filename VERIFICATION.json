@@ -1,0 +1,10 @@
+{
+  "tests": 11,
+  "pass": 11,
+  "fail": 0,
+  "scope": "Node fixtures using real spitroast and a VM reproducing the Kettu plugin evaluation contract; not on-device",
+  "device_audio_verified": false,
+  "remote_deafened_icon_verified": false,
+  "public_install_url_created": false,
+  "bundle_sha256": "c1fa78b41d5369226a538ba38856953e1c29b5e525bdd15126e0959ad7790c5b"
+}

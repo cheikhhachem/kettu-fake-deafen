@@ -1,0 +1,19 @@
+{
+  "name": "Fake Deafen (Experimental)",
+  "description": "Kettu-first prototype: report deafened without changing local audio or microphone controls. /fd toggles; /fdstatus shows local status. Not phone-verified.",
+  "authors": [
+    {
+      "name": "Vermillion"
+    },
+    {
+      "name": "fizzexual (original Vencord plugin)"
+    }
+  ],
+  "main": "index.js",
+  "vendetta": {
+    "icon": "ic_headset_deafened"
+  },
+  "version": "0.1.0",
+  "license": "GPL-3.0-or-later",
+  "hash": "c1fa78b41d5369226a538ba38856953e1c29b5e525bdd15126e0959ad7790c5b"
+}

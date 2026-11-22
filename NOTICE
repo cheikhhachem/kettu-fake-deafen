@@ -1,0 +1,13 @@
+Fake Deafen (Experimental), mobile adaptation for Vermillion.
+License: GPL-3.0-or-later.
+Original concept/source: https://github.com/fizzexual/DeafenVencord
+Original author: fizzexual.
+Upstream source notice retained:
+  Vencord, a Discord client mod
+  Copyright (c) 2025 Vendicated and contributors
+  SPDX-License-Identifier: GPL-3.0-or-later
+Upstream license notice: Copyright (C) 2025 FakeDeafen Contributors.
+Changes: rewrite for Vendetta-compatible runtime APIs, deafened-only behavior,
+private commands/settings, gateway lifecycle guards, build packaging and tests.
+Kettu, Revenge, Discord and Vencord do not endorse this prototype.
+No claim of on-device functionality or blanket compatibility is made.
