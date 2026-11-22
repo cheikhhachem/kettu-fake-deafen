@@ -20,14 +20,14 @@ A [Kettu](https://github.com/C0C0B01/Kettu) plugin that reports you as deafened 
 3. Paste this URL:
 
 ```
-https://raw.githubusercontent.com/cheikhhachem/kettu-fake-deafen/main/dist/fake-deafen/manifest.json
+https://raw.githubusercontent.com/cheikhhachem/kettu-fake-deafen/main/dist/fake-deafen/
 ```
 
-The same `manifest.json` URL is the install link. After it loads, enable the plugin.
+Paste the folder URL, not the manifest.json URL. After it loads, enable the plugin.
 
 ## Other mobile clients
 
-This plugin uses the Vendetta-compatible plugin API (a standard `manifest.json` plus a bundled `index.js`). That API is shared by **Vendetta**, **Bunny**, **Kettu** (which continues Bunny), and **Revenge**, so they install from the same manifest URL.
+This plugin uses the Vendetta-compatible plugin API (a standard `manifest.json` plus a bundled `index.js`). That API is shared by **Vendetta**, **Bunny**, **Kettu** (which continues Bunny), and **Revenge**, so they install from the same folder URL.
 
 Confirmed working on Kettu. Expected to work on Revenge, Bunny, and Vendetta; not yet confirmed there.
 
